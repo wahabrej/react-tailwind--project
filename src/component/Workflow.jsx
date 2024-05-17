@@ -5,12 +5,12 @@ import codeimg from '../assets/code.jpg'
 import { checklistItems } from "../constants";
 export default function Workflow() {
   return (
-    <div className="flex flex-col items-center max-w-7xl mx-auto pt-10 px-6">
+    <div className="flex flex-col items-center max-w-6xl mx-auto pt-10 px-6">
         <h1 className='text-2xl text-center sm:text-3xl lg:text-4xl tracking-wide mt-10 py-3'>Accelerate your  <span className='bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text'>{"  "}coding workflow.</span> 
 
         </h1>
 
-        <div className="flex max-w-7xl mx-auto pt-10 px-6 item-center justify-center">
+        <div className="flex  pt-10 px-6 item-center justify-center">
             <img src={codeimg} className='w-2/4' alt="" />
           
                 <div className="pt-12 w-full lg:w-1/2">
