@@ -10,7 +10,7 @@ export default function Workflow() {
 
         </h1>
 
-        <div className="flex  pt-10 px-6 item-center justify-center">
+        <div className="flex flex-wrap  pt-10 px-6 item-center justify-center">
             <img src={codeimg} className='w-2/4' alt="" />
           
                 <div className="pt-12 w-full lg:w-1/2">
